@@ -65,9 +65,9 @@
 			children = (
 				95EAEF321EE1BC610010F7B0 /* Pair.entitlements */,
 				95EAEF1D1EE1B80F0010F7B0 /* Main.storyboard */,
+				95EAEF2E1EE1BB4D0010F7B0 /* View Controller */,
 				95EAEF381EE1C0980010F7B0 /* Model Controller */,
 				95EAEF311EE1BB6B0010F7B0 /* Model */,
-				95EAEF2E1EE1BB4D0010F7B0 /* View Controller */,
 				95EAEF2B1EE1B8200010F7B0 /* Resources */,
 			);
 			path = Pair;

@@ -16,22 +16,24 @@ class PairController {
     var names = [Pair]()
     
     // Save names to CloudKit
-    func addName(name: String) {
+    func addName(name: String, completion: @escaping () -> Void) {
         
         let name = Pair(names: name)
         
         let nameRecord = name.cloudKitRecord
+        
         
         CKContainer.default().publicCloudDatabase.save(nameRecord) { (record, error) in
             if let error = error {
                 NSLog("Error saving name to CloudKit: \(error)")
             }
             self.names.append(name)
+            completion()
         }
     }
     
     // Fetch from CloudKit
-    func fetchName() {
+    func fetchName(completion: @escaping () -> Void) {
         
         let predicate = NSPredicate(value: true)
         let query = CKQuery(recordType: Pair.typeKey, predicate: predicate)
@@ -45,14 +47,15 @@ class PairController {
             
             let names = record.flatMap { Pair(cloudKitRecord: $0) }
             self.names = names
+            completion()
         }
     }
     
     // Delete from CloudKit
     
-    func delete(names: Pair) {
+    func delete(name: Pair) {
         
-        guard let index = names.index(of: names) else { return }
+        guard let index = names.index(of: name) else { return }
         self.names.remove(at: index)
         
         CKContainer.default().publicCloudDatabase.delete(withRecordID: name.cloudKitRecord.recordID) { (record, error) in

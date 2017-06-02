@@ -42,3 +42,10 @@ class Pair {
         return record
     }
 }
+
+extension Pair: Equatable {
+    
+    static func ==(lhs: Pair, rhs: Pair) -> Bool {
+        return lhs.cloudKitRecordID == rhs.cloudKitRecordID
+    }
+}
