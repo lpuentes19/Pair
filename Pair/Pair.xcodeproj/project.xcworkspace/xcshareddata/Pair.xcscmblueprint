@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4EFFBF2CAE04081CBD13C91689D67EDD88DAB1F1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4EFFBF2CAE04081CBD13C91689D67EDD88DAB1F1" : 9223372036854775807,
+    "2DF7C59C68B0980E1A744387FCD36F3DEE25B9FA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E58723D3-A87B-4EEC-917B-D5B3961FFF3B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4EFFBF2CAE04081CBD13C91689D67EDD88DAB1F1" : "Pair\/",
+    "2DF7C59C68B0980E1A744387FCD36F3DEE25B9FA" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pair",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Pair\/Pair.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lpuentes19\/Dine-n-Divide.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2DF7C59C68B0980E1A744387FCD36F3DEE25B9FA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lpuentes19\/Pair.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4EFFBF2CAE04081CBD13C91689D67EDD88DAB1F1"
+    }
+  ]
+}
