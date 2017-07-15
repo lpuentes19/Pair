@@ -15,6 +15,7 @@
 		95EAEF301EE1BB640010F7B0 /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EAEF2F1EE1BB640010F7B0 /* Pair.swift */; };
 		95EAEF351EE1BC880010F7B0 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EAEF341EE1BC880010F7B0 /* CloudKit.framework */; };
 		95EAEF371EE1BEFF0010F7B0 /* Pair Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EAEF361EE1BEFF0010F7B0 /* Pair Controller.swift */; };
+		95FA16061EF9BEF4000100B2 /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA16051EF9BEF4000100B2 /* Shuffle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		95EAEF321EE1BC610010F7B0 /* Pair.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pair.entitlements; sourceTree = "<group>"; };
 		95EAEF341EE1BC880010F7B0 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		95EAEF361EE1BEFF0010F7B0 /* Pair Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pair Controller.swift"; sourceTree = "<group>"; };
+		95FA16051EF9BEF4000100B2 /* Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shuffle.swift; path = ../Shuffle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			children = (
 				95EAEF321EE1BC610010F7B0 /* Pair.entitlements */,
 				95EAEF1D1EE1B80F0010F7B0 /* Main.storyboard */,
+				95FA16071EF9BEFE000100B2 /* Extensions */,
 				95EAEF2E1EE1BB4D0010F7B0 /* View Controller */,
 				95EAEF381EE1C0980010F7B0 /* Model Controller */,
 				95EAEF311EE1BB6B0010F7B0 /* Model */,
@@ -114,6 +117,14 @@
 				95EAEF361EE1BEFF0010F7B0 /* Pair Controller.swift */,
 			);
 			name = "Model Controller";
+			sourceTree = "<group>";
+		};
+		95FA16071EF9BEFE000100B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				95FA16051EF9BEF4000100B2 /* Shuffle.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FA16061EF9BEF4000100B2 /* Shuffle.swift in Sources */,
 				95EAEF371EE1BEFF0010F7B0 /* Pair Controller.swift in Sources */,
 				95EAEF1A1EE1B80F0010F7B0 /* AppDelegate.swift in Sources */,
 				95EAEF2D1EE1B8D50010F7B0 /* PairsTableViewController.swift in Sources */,
@@ -368,6 +380,7 @@
 				95EAEF2A1EE1B80F0010F7B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
